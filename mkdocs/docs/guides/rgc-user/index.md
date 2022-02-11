@@ -40,7 +40,7 @@ which are less problematic when used in subsequent compositing or grading
 operations. Creative modifications are left for the user to apply as necessary
 downstream of the RGC.
 
-The [ACES Reference Gamut Compression](https://github.com/ampas/aces-dev/blob/master/transforms/ctl/lmt/LMT.Academy.GamutCompress.ctl) uses fixed values for the thresholds where
+The ACES [Reference Gamut Compression](https://github.com/ampas/aces-dev/blob/master/transforms/ctl/lmt/LMT.Academy.GamutCompress.ctl) uses fixed values for the thresholds where
 compression begins, and for the amount of compression. These values have been
 calculated such that the colors of the ColorChecker 24 will remain unchanged,
 and that any colors that are within the encoding gamuts of all the commonly used
@@ -273,6 +273,9 @@ Before and after images, viewed through the Rec. 709 Output Transform
 
 <!-- Include acronyms-->
 --8<-- "mkdocs/includes/acronyms.md"
+
+<!-- Include footnotes-->
+--8<-- "mkdocs/includes/rgc-footnotes.md"
 
 <!-- Include section numbering -->
 <style>

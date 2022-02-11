@@ -1,0 +1,1 @@
+*[fixed values]: Some implementations may also include a parametric version of the ACES gamut compression. If you choose to use this, it falls outside the scope of published ACES workflows, and therefore will need to be tracked manually. At that point it is simply another creative tool in the colorist’s arsenal.
