@@ -52,7 +52,7 @@ downstream of the RGC.
 
 The ACES [Reference Gamut
 Compression](https://github.com/ampas/aces-dev/blob/master/transforms/ctl/lmt/LMT.Academy.GamutCompress.ctl) 
-uses fixed values [^1] for the thresholds where compression begins, and for the
+uses fixed values for the thresholds where compression begins, and for the
 amount of compression. These values have been calculated such that the colors of
 the ColorChecker 24 will remain unchanged, and that any colors that are within
 the encoding gamuts of all the commonly used digital cinema cameras (those with
@@ -61,7 +61,8 @@ values.  In most workflows, these constants will be invisible to the user, as
 demonstrated in the screenshots from Resolve 17.4 below - the user has the
 option to apply the RGC at a project or a clip level.
 
-[^1]: Some implementations may also include a parametric version of the
+??? note
+    Some implementations may also include a parametric version of the
     ACES gamut compression. If you choose to use this, it falls outside the scope
     of published ACES workflows, and therefore will need to be tracked manually.
     At that point it is simply another creative tool in the colorist’s arsenal.
